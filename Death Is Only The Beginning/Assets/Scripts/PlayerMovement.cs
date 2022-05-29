@@ -26,6 +26,6 @@ public class PlayerMovement : MonoBehaviour
         body.velocity = new Vector2(body.velocity.x, speed);
 
     //Set animator parameter
-    /* anim.SetBool("run", HorizontalInput != 0); */
+    anim.SetBool("run", HorizontalInput != 0);
    }
 }
